@@ -106,9 +106,9 @@ function Form() {
             Gender:
               <select /*className="input"*/  className="form-control form-select form-select-sm"  {...register("gender")}>
                 <option value="">Select...</option>
-                <option value="female">Female</option>
-                <option value="male">Male</option>
-                <option value="others">Others</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Others">Others</option>
               </select>
               <span style={{ color: errors.gender ? 'red' : 'inherit' }}>
             {errors.gender && <p>{errors.gender.message}</p>}
