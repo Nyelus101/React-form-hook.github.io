@@ -25,3 +25,18 @@ const validationSchema = Yup.object().shape({
 });
 
 export default validationSchema;
+
+
+/*
+{submitted && (
+  <div>
+  <h2>Form Data Submitted</h2>
+  <p>firstName : {formData.firstName}</p>
+  <p>lastName: {formData.lastName}</p>
+  <p>email: {formData.email}</p>
+  <p>password: {formData.password}</p>
+  <p>confirmpassword: {formData.confirmpassword}</p>
+  <p>gender: {formData.gender}</p>
+  </div>
+  )}
+*/
